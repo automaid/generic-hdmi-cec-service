@@ -1,0 +1,33 @@
+{
+  "name": "@automaid/hdmi-cec-service",
+  "version": "1.0.0",
+  "description": "Expose libcec commands as a HTTP Endpoint",
+  "main": "src/index.js",
+  "bin": {
+    "cec-service": "bin/cec-service"
+  },
+  "scripts": {
+    "start": "bin/cec-service",
+    "lint": "eslint src/** bin/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automaid/hdmi-cec-service.git"
+  },
+  "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/automaid/hdmi-cec-service/issues"
+  },
+  "homepage": "https://github.com/automaid/hdmi-cec-service#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-format": "^0.2.1",
+    "js-yaml": "^3.10.0",
+    "restify": "^5.2.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
