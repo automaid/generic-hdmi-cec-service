@@ -1,4 +1,6 @@
 # hdmi-cec-service
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/automaid/generic-hdmi-cec-service.svg)](https://greenkeeper.io/)
 This Service exposes the libcec functionality via a HTTP API.
 
 There are multiple predefined internal endpoints and you can add as many
